@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-image: url(/assets/img/areas.jpg);
+    font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-menu {
+    background: #2F2B15;
+    text-align: center;
+}
+
+.header-menu ul {
+    list-style: none;
+    display: inline-flex;
+    color: #DB9957;
+}
+
+.header-menu ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.header-menu ul li a {
+    text-decoration: none;
+    color: #DB9957;
+}
+
+.active,
+.header-menu ul li:hover {
+    background-color: rgb(94, 84, 33);
+    border-radius: 5px;
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+.header-menu ul li:hover .sub-menu-1 {
+    display: block;
+    margin-top: 15px;
+    margin-left: -15px;
+    background-color: #2F2B15;
+    position: absolute;
+}
+
+.header-menu ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+    font-size: 14px;
+}
+
+.header-menu ul li:hover .sub-menu-1 ul li {
+    width: 180px;
+    padding: 10px 0 0 10px;
+    border-bottom: #CF3E27 1px dotted;
+    text-align: left;
+    border-radius: 0;
+}
+
+.header-menu ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+}
+
+.fa-angle-right {
+    float: right;
+}
+
+.sub-menu-2 {
+    display: none;
+}
+
+.sub-menu-hover:hover .sub-menu-2 {
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 179px;
+    background: #2F2B15;
+}
