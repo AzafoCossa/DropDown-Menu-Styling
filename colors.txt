@@ -1,0 +1,5 @@
+Brick Red: #CF3E27;
+Peru: #DB9957;
+Sienna: #A06840;
+Dark Olive Green: #2F2B15;
+Slate Gray: #75677F;
